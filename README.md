@@ -1,8 +1,10 @@
 # tf-ec2-webapp1
 
-1.) Create terraform.tfvars as below as per requirement.
+0.) git clone https://github.com/vsaini1/tf-ec2-webapp1.git ; cd tf-ec2-webapp1
 
-2.) terraform init (To initiate provider plugins)
+1.) Create terraform.tfvars as below as per requirementrs
+
+2.) terraform init (To initiate cloud provider plugins)
 
 3.) terraform fmt  (To formate *.tf files)
 
@@ -46,4 +48,3 @@ ingress_port2  = "80"
 ingress_proto1 = "tcp"
 
 ingress_proto2 = "tcp"
-
