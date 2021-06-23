@@ -15,7 +15,7 @@ resource "aws_instance" "web" {
   key_name               = aws_key_pair.key.key_name
   vpc_security_group_ids = ["${aws_security_group.websg.id}"]
   user_data              = file("${var.user_data_file}")
-  tags                   = { Name = "var.ec2_name" }
+  tags                   = { Name = "${var.ec2_name}" }
 }
 resource "aws_security_group" "websg" {
   name        = var.sg_name

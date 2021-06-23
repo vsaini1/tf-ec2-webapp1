@@ -11,6 +11,7 @@
 5.) terraform plan (To run plan to verify changes as per requirment)
 
 6.) terraform apply -auto-approve (To make Declarative changes in infra)  
+Go to EC2 public IP on browser to verify app web page loading
 
 7.) terraform destroy (To remove all resources created)
 
